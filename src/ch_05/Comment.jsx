@@ -10,7 +10,8 @@ const styles = {
 function Comment (props) {
     return (
         <div style={styles.wrapper}>
-            <h1>compount</h1>
+            <h1>{props.name}</h1>
+            <div>{props.comment}</div>
         </div>
     );
 }
